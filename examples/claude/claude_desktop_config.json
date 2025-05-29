@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "composio-gmail": {
+      "command": "npx",
+      "args": [
+        "@composio/mcp@latest",
+        "server",
+        "--url",
+        "https://mcp.composio.dev/gmail/your-sse-url-here"
+      ]
+    },
+    "composio-notion": {
+      "command": "npx",
+      "args": [
+        "@composio/mcp@latest",
+        "server",
+        "--url",
+        "https://mcp.composio.dev/notion/your-sse-url-here"
+      ]
+    },
+    "composio-salesforce": {
+      "command": "npx",
+      "args": [
+        "@composio/mcp@latest",
+        "server",
+        "--url",
+        "https://mcp.composio.dev/salesforce/your-sse-url-here"
+      ]
+    }
+  }
+}

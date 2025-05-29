@@ -1,0 +1,57 @@
+{
+  "mcpServers": {
+    "composio-gmail": {
+      "command": "npx",
+      "args": [
+        "@composio/mcp@latest",
+        "setup",
+        "https://mcp.composio.dev/gmail/your-api-key-here",
+        "--client",
+        "cursor"
+      ],
+      "env": {
+        "COMPOSIO_API_KEY": "your-api-key-here"
+      }
+    },
+    "composio-slack": {
+      "command": "npx",
+      "args": [
+        "@composio/mcp@latest",
+        "setup",
+        "https://mcp.composio.dev/slack/your-api-key-here",
+        "--client",
+        "cursor"
+      ],
+      "env": {
+        "COMPOSIO_API_KEY": "your-api-key-here"
+      }
+    },
+    "composio-linear": {
+      "command": "npx",
+      "args": [
+        "@composio/mcp@latest",
+        "setup",
+        "https://mcp.composio.dev/linear/your-api-key-here",
+        "--client",
+        "cursor"
+      ],
+      "env": {
+        "COMPOSIO_API_KEY": "your-api-key-here"
+      }
+    },
+    "composio-github": {
+      "command": "npx",
+      "args": [
+        "@composio/mcp@latest",
+        "setup",
+        "https://mcp.composio.dev/github/your-api-key-here",
+        "--client",
+        "cursor"
+      ],
+      "env": {
+        "COMPOSIO_API_KEY": "your-api-key-here",
+        "GITHUB_ACCESS_TOKEN": "your-github-token"
+      }
+    }
+  }
+}
